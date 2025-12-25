@@ -195,7 +195,7 @@ function showModalConfirm(name, id) {
 
 async function printWithPrintNode() {
     const apiKey = "cmIEqzm5rM-hHvKxK2v_afDZ2XzGxXjr9s08HkWL9v0"; // thay bằng API Key bạn lấy từ PrintNode
-    const printerId = 74718076; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
+    const printerId = 75038368; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
 
     const body = {
         printerId: printerId,
@@ -269,7 +269,7 @@ function toBase64(str) {
 
 async function printTicket(counter) {
     const apiKey = "cmIEqzm5rM-hHvKxK2v_afDZ2XzGxXjr9s08HkWL9v0"; // thay bằng API Key bạn lấy từ PrintNode
-    const printerId = 74718076; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
+    const printerId = 75038368; // thay bằng ID của máy in (lấy từ PrintNode Dashboard)
 
     const raw = buildTicket(counter);
     const contentBase64 = toBase64(raw);
