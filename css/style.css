@@ -269,6 +269,7 @@ button[type="submit"]:hover {
     justify-content: center;
 }
 .modal-btn {
+    margin: 5px;
     padding: 0.6rem 1.5rem;
     border: none;
     border-radius: 8px;
